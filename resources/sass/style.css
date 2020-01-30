@@ -1,0 +1,23 @@
+body{
+    background: white;
+}
+.navbar-brand{
+    font-size: 30px !important;
+    color: hotpink !important;;
+}
+
+.navbar-about, .navbar-products{
+    font-size: 20px !important;
+}
+
+.search-button{
+    border: 1px solid hotpink !important;
+    background: hotpink !important;
+    color: white !important;
+}
+
+.login, .register{
+    background: pink;
+    border-radius: 7px;
+    font-size: 15px;
+}
