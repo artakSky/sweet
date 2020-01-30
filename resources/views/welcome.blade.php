@@ -14,20 +14,16 @@
             @endsection
 
             @if (Route::has('register'))
-
-            @section('register')
-                <li class="nav-item active ml-2 register">
-                    <a class="nav-link" href="{{ route('register') }}" tabindex="-1" aria-disabled="true">Register</a>
-                </li>
-            @endsection
-
+                @section('register')
+                    <li class="nav-item active ml-2 register">
+                        <a class="nav-link" href="{{ route('register') }}" tabindex="-1" aria-disabled="true">Register</a>
+                    </li>
+                @endsection
             @endif
             @endauth
         </div>
     @endif
 </div>
-
-
 
 @section('carousel')
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">

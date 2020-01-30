@@ -23,20 +23,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+            <state relative-caret-position="131">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" column="19" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="19" />
+            <state relative-caret-position="139">
+              <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -54,8 +54,8 @@
         <option value="$PROJECT_DIR$/resources/views/css/style.css" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/resources/sass/app.scss" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
       </list>
     </option>
   </component>
@@ -254,12 +254,12 @@
       <option name="presentableId" value="Default" />
       <updated>1580382135214</updated>
       <workItem from="1580382140977" duration="7909000" />
-      <workItem from="1580409808636" duration="641000" />
+      <workItem from="1580409808636" duration="998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8550000" />
+    <option name="totallyTimeSpent" value="8907000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -280,7 +280,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" visible="true" weight="0.32933104" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2344932" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2344932" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -400,17 +400,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="19" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="19" />
+        <state relative-caret-position="131">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+        <state relative-caret-position="139">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
         </state>
       </provider>
     </entry>
