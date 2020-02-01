@@ -1,9 +1,20 @@
 body{
-    background: white;
+    background: #F8FAFC;
+    }
+
+.navbar{
+    background:#F8FAFC;
+    z-index: 10;
+    width: 100%;
+    border: none;
 }
+
 .navbar-brand{
     font-size: 30px !important;
     color: hotpink !important;;
+}
+.logo-image{
+    width: 280px
 }
 
 .navbar-about, .navbar-products{
@@ -11,13 +22,32 @@ body{
 }
 
 .search-button{
-    border: 1px solid hotpink !important;
-    background: hotpink !important;
+    border: 1px solid pink !important;
+    background: pink !important;
     color: white !important;
 }
 
-.login, .register{
+.login, .register {
     background: pink;
     border-radius: 7px;
     font-size: 15px;
+}
+
+.logout-name{
+    margin-top: 8px;
+    padding-right: 15px;
+    margin-left: 14px
+}
+
+.logout-button{
+    border: none;
+    background: pink;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 950px) {
+    body {
+        background-color: lightblue;
+    }
 }

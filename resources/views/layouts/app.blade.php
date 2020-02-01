@@ -12,7 +12,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Sweet') }}</title>
 
 
     <!-- Fonts -->
@@ -21,17 +21,26 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
 </head>
 <body>
 
 @include('layouts.navbar')
 
-@yield('carousel')
+<div style="padding-top: 107px">
+    @yield('carousel')
+    @yield('order')
 
-<main class="py-4">
-    @yield('content')
-</main>
+    @yield('cards')
+    @yield('about')
+
+    <main class="py-1">
+        @yield('content')
+    </main>
+    @include('layouts.footer')
+</div>
+
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
